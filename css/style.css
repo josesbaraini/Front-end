@@ -15,12 +15,21 @@ main{
     background-color: aquamarine;
     text-align: center;
     margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px rgb(94, 94, 94) solid;
+    border-style: double;
+    border-radius: 10vw;
+    
 
 }
 
 
 .map-image{
-    
-
+    margin-top: 10%;
+    margin-bottom: 10%;
     width: 90%;
+    border: 10px rgb(94, 94, 94) solid;
+    border-radius: 10vw;
 }
