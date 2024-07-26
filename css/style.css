@@ -1,0 +1,26 @@
+.title{
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    
+}
+
+main{
+    text-align: center;
+}
+
+.map-mouldure{
+    width: 40vh;
+    height: 40vh;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 2vw;
+
+}
+
+
+.map-image{
+    
+
+    width: 90%;
+}
