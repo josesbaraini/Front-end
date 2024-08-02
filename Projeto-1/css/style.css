@@ -1,0 +1,229 @@
+*{margin: 0%;
+
+}
+
+body{
+    background: url("../img/backgroud.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 1px;
+    height: 100vh;
+
+}
+
+.main-1{
+    background-color: green;
+    text-align:center ;
+    width: 30vw;
+    height: auto;
+    padding: 10px;
+    border: 15px black solid;
+    margin-left: 5vw;
+    border-radius: 20px;
+
+}
+
+.main-2{
+    padding: 10px;
+    text-align:center ;
+    width: 30vw;
+    height: auto;
+    background-color: blue;
+    border-radius: 20px;
+    float: right;
+    border: 15px black solid;
+    margin-right: 5vw;
+    
+}
+
+
+
+.cian{
+
+    color: aqua;
+}
+
+.sus{
+    color: crimson;
+
+}
+
+img{
+    border-radius: 25px;
+    width: 20vw;
+
+}
+
+img.crewin,img.imp,img.amongus-image{
+    border-radius: 25px;
+    width: 17vw;
+
+    
+}
+
+
+
+
+#crewin{
+    
+    display: none;
+}
+
+
+nav{
+    text-align: center;
+    align-items: center;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+}
+
+
+nav ul{
+    border-style:double;
+    border: 9px, black;
+    text-align: center;
+    background-color: white;
+    border-radius: 200px;
+    width: 20vw;
+    padding: 0%;
+    left: calc(50% - 10vw) ;
+    position: relative;
+}
+
+
+nav li {
+    list-style-type: none ;
+    margin: 0 0 0 15px;
+    margin: 0px;
+    
+    
+}
+
+#imp ,#impostor,#tripulantes{
+
+    display: none;
+}
+
+.img-secret{
+
+    width: 60%;
+}
+
+#impostor p{
+    color: red;
+    
+
+}
+
+#base p{
+    color: yellow;
+
+}
+
+
+#tripulantes p{
+    color: lawngreen;
+}
+
+h1.texto{
+    font-size: 20px;
+
+}
+
+p.texto{
+    font-size: 20px;
+
+}
+
+header{
+    text-align: center;
+}
+
+@media only screen and (max-width: 959px) {
+    nav a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and  (max-width: 600px) {
+    nav a {
+        font-size: 10px;
+    }
+}
+
+footer{
+    margin-top: 20px;
+    background-image: url("../img/fundo.jpg");
+    border-radius: 5px;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+
+}
+
+footer p{
+    color: white;
+}
+
+.copyrights{
+    font-size: 10px;
+
+}
+
+#main-impostor{
+    text-align: center;
+    background-color: red;
+    border: 2vw black;
+    border-style: double;
+    width: 80vw;
+    left: 8.5vw ;
+    position: relative;
+    font-size: 20px;
+    padding: 3px;
+}
+
+
+#main-tripulantes{
+    text-align: center;
+    background-color: blue;
+    border: 2vw black;
+    border-style: double;
+    width: 80vw;
+    left: 8.5vw ;
+    position: relative;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.main-fail{
+    text-align: center;
+    background-color: gold;
+    border: 2vw black;
+    border-style: double;
+    width: 80vw;
+    left: 8.5vw ;
+    position: relative;
+    font-size: 20px;
+    padding: 3px;
+    min-height: 100%;
+
+
+}
+
+#marcado{
+    width: 60%;
+}
+
+
+#chave{
+    color:blue;
+}
