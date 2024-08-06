@@ -1,4 +1,10 @@
+:root{
+    --cor-principal: #6d8091;
+    --cor-secundaria: #69ade9;
+    --cor-secundaria-variante: #3b73a3;
+
+}
 header{
 
-    background-color: bisque;
+    background-color: var(--cor-secundaria-variante);
 }
