@@ -5,6 +5,40 @@
 
 }
 header{
-
+    display: flex;
     background-color: var(--cor-secundaria-variante);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-nav{
+    border-radius: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 4vw;
+    height: 4vw;
+    
+}
+
+.nav-items{
+    background-color: var(--cor-secundaria);
+    position: absolute;
+    width: 20vw;
+    height: 30vw;
+    min-width: 250px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    border: 12px var(--cor-secundaria-variante) solid;
+
+}
+.nav-items p{
+    margin: 50px;
+    font-size: 210%;
+    background-color: var(--cor-secundaria-variante);
+    border-radius: 30px;
+    border: 6px var(--cor-principal) solid;
+
 }

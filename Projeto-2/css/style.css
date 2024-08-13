@@ -32,6 +32,8 @@ main{
     border: 20px var(--cor-secundaria-variante) solid;
     border-style: double;
     border-radius: 20px;
+    overflow: hidden;
+    
 
     
 
@@ -45,5 +47,15 @@ main{
     height: 60%;
     border: 2px rgb(94, 94, 94) solid;
     border-radius: 20px;
+}
+
+.map-image:hover{
+    margin-top: 0px;
+    height: 80%;
+    width: 120%;
+    transition: 300ms;
+
+    
+
 }
 
