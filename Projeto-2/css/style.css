@@ -12,6 +12,11 @@
     
 }
 
+body::-webkit-scrollbar { 
+	display: none;
+}
+
+
 main{
     text-align: center;
     align-items: center;
@@ -54,6 +59,7 @@ main{
     height: 80%;
     width: 120%;
     transition: 300ms;
+    cursor: pointer
 
     
 
