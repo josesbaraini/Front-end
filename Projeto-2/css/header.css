@@ -16,6 +16,7 @@ header{
     color: white;
     text-align: center;
     font-size: 45px;
+    align-self: center;
     
 }
 
@@ -61,8 +62,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+}
+.nav-items a{
+
+    text-decoration: none;
+     color:black;
+}
 
 #borrado{
     width: 100vw;
@@ -70,6 +76,11 @@ header{
     background-color: rgb(0,0,0,0.5);
     position: absolute;
 
+}
+
+.tiutulo{
+    display: flex;
+    align-items: center;
 }
 
 @media only screen and (min-width : 1280px)

@@ -38,12 +38,23 @@ main{
     border-style: double;
     border-radius: 20px;
     overflow: hidden;
+    align-items: center;
     
 
     
 
 }
 
+.map-mouldure a{
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 .map-image{
     margin-top: 10%;
