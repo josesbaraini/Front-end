@@ -12,37 +12,12 @@ main{
     flex-direction: column;
 
 }
+section{
 
-.classes-boas{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 40vw;
-
-    margin: 20px;
+    text-align: center;
 }
 
-.classe-div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    border: black 4px solid;
-    border-radius: 8px;
-    margin: 2px;
-    background-color: var(--cor-secundaria);
-
-}
-
-.classe-div img{
-    width: 60%;
-    height: 60%;
-    border-radius: 20px;
-
-
-}
-
-.classes-boas h1{
+main h1{
     font-size: 40px;
     color: white;
     background-color: var(--cor-secundaria-variante);
@@ -50,3 +25,58 @@ main{
     margin: 7px;
     border: solid black 4px;
 }
+
+.classes-boas{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+
+
+
+.classe-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 407px;
+    height: 236px;
+    border: black 4px solid;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: var(--cor-secundaria);
+
+
+}
+
+
+
+.classe-div img{
+    width: 30%;
+    border-radius: 20px;
+    min-width: 140px;
+    margin: 3px;
+
+
+}
+
+.classe-div p{
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.classe-div h2{
+    font-size: 40px;
+    color: white;
+    
+
+
+}
+
