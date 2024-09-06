@@ -26,7 +26,7 @@ main h1{
     border: solid black 4px;
 }
 
-.classes-boas{
+.classes-boas, .classes-maus{
     display: flex;
     align-items: center;
     width: 90vw;
@@ -36,6 +36,8 @@ main h1{
     align-content: center;
     gap: 20px;
 }
+
+
 
 
 
