@@ -1,0 +1,33 @@
+:root{
+    --cor-principal: black;
+    --cor-secundaria: gray;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    font-size: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border: 3px solid var(--cor-principal);
+
+
+}
+
+form label,form input, form textarea{
+    margin: 10px;
+   
+
+}
+
+button{
+    margin: 10px;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+}

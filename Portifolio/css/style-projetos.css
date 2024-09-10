@@ -1,0 +1,71 @@
+:root{
+    --cor-principal: black;
+    --cor-secundaria: gray;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+section div{
+    margin: 10px;
+    border: 2px solid var(--cor-principal);
+    width: 40vw;
+}
+
+section div:hover{
+    box-shadow: 10px 5px 5px black;
+}
+img{
+    width: 200px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+@media only screen and (max-width : 600px){
+    section div{
+        margin: 10px;
+        border: 2px solid var(--cor-principal);
+        width: 60vw;
+    }    
+
+    img{
+        width: 150px;
+    }
+
+   p{
+    font-size: 10;
+   }
+
+
+}
+
+@media only screen and (max-width : 400px){
+    section div{
+        margin: 10px;
+        border: 2px solid var(--cor-principal);
+        width: 60vw;
+    }    
+
+    img{
+        width: 100px;
+    }
+
+   p{
+    font-size: 10;
+   }
+
+
+}

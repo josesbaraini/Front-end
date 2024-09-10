@@ -1,0 +1,27 @@
+:root{
+    --cor-principal: black;
+    --cor-secundaria: gray;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 8px;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    align-self: center;
+    border: 2px solid var(--cor-principal);
+    border-left: 0cap;
+    border-style:dotted;
+}
+
+footer a{
+    width: 5vw;
+}
+footer img{
+    width: 100%;
+
+
+}
