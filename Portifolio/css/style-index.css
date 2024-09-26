@@ -1,0 +1,33 @@
+:root{
+    --cor-principal: black;
+    --cor-secundaria: gray;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid var(--cor-principal);
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+section h1{
+    margin: 10px;
+    
+}
+
+section img{
+    margin: 10px;
+    width: 200px;
+    border: 4px solid var(--cor-principal);
+    border-radius: 20px;
+    
+}
+
+section p{
+    margin: 10px;
+    
+}
